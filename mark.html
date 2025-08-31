@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendence Calculator</title>
+     <link  rel="stylesheet" href="marks.css"> 
+    <script src="mark.js"></script>
+   </head>
+<body>
+    <h1>Marks Calculator</h1>
+<form onsubmit="calculateAttendance(event)">
+    <label for="sname">Students name:</label><br>
+    <input type="text" id="sname" name="sname" ><br>
+    <br>
+    <lable for="number">Fundamentals of Blochchain</lable><br>
+    <input type="number" id="f" number="f" ><br>
+    <br>
+    <lable for="number">Solidity<lable><br>
+    <input type="number" id="s" number="s" ><br>
+    <br>
+    <lable for="number">Blockchain Network</lable><br>
+    <input type="number" id="n" number="n" ><br>
+    <br>
+     <lable for="number">Java</lable><br>
+    <input type="number" id="j" number="j" ><br>
+    <br>
+     <lable for="number">Tokenomics</lable><br>
+    <input type="number" id="t" number="t" ><br>
+    <br>
+     <lable for="number">Distributed System</lable><br>
+    <input type="number" id="d" number="d" ><br>
+    <br>
+    <button id="id1">Calculate</button>
+</form>
+ <div id="result" class="result"></div>
+ <table>
+    <tr>
+        <th>Student</th>
+        <th>Percentage</th>
+        <th>GPA</th>
+    </tr>
+    
+ </table>
+</body>
+</html>
