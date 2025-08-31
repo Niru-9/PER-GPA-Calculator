@@ -32,7 +32,7 @@ The calculator processes marks from 6 subjects:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/PRE-GPA-Calculator.git
+   git clone https://github.com/Niru-9/PER-GPA-Calculator
    cd PRE-GPA-Calculator
    ```
 
@@ -89,7 +89,7 @@ PRE-GPA-Calculator/
 - **Modify GPA Scale**: Change the divisor (currently 9.5) in the calculation
 - **Add More Subjects**: Extend the form and calculation logic
 - **Custom Grading System**: Adjust percentage to GPA conversion
-- **Styling**: Customize colors, fonts, and layout in `style.css`
+- **Styling**: Customize colors, fonts, and layout in `marks.css`
 - **Subject Names**: Update input IDs and labels for specific subjects
 
 ## 🔮 Future Enhancements
